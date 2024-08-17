@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2, p {
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0; 
+    padding-bottom: 40px;
+}
+
+.container, .not-body2 {
+    width: 100%;
+    max-width: 350px; 
+}
+
+.not-body, .not-body2 {
+    margin-top: 20px; 
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+
+.row, .not-body2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch; 
+    justify-content: flex-start;
+}
+
+
+
+.not-title {
+    width: 100%; 
+    margin: 0 0 10px 0; 
+    padding: 0; 
+    text-align: left; 
+    font-size: 18px; 
+    word-wrap: break-word;
+}
+
+
+
+form {
+    display: block; 
+    width: 100%; 
+}
+
+
+.form-control {
+    padding: 10px;
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-bottom: 10px;
+}
+
+
+.submitclass {
+    padding: 10px;
+    background-color: #0a397a; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px; 
+
+}
+
+.submitclass:hover {
+    background-color: #104c9d; 
+}
+
+
+.submitclass:active {
+    background-color: #1a65bf; 
+}
+
+
+button, .submitclass {
+    background-color: #0a397a; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: inline-block;
+    text-align: center;
+    font-size: 16px; 
+}
+
+
+button:hover, .submitclass:hover {
+    background-color: #104c9d;
+}
+
+
+button:active, .submitclass:active {
+    background-color: #1a65bf;
+}
+
+#clearNotesButton {
+    width: auto; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.not-body2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; 
+    margin-top: 20px;
+}
+
+.not-list {
+    margin-top: 10px; 
+    padding: 0;
+    list-style-type: none; 
+}
+
+.not-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+}
+
+.not-link {
+    color: red; 
+    text-decoration: none; 
+}
+
+#clearNotesButton {
+    margin-top: 10px; 
+}
+
+
+/* Genel .alert sınıfı */
+.alert {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px; /* Genişliği sınırlamak için */
+}
+
+/* .alert-success için yeşil arka plan ve beyaz yazı rengi */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* .alert-warning için sarı arka plan ve siyah yazı rengi */
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+

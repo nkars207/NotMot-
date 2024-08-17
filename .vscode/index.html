@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Not Defteri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>NotMot ✎ </h2>
+    <p>NotMot sayesinde ücretsiz bir şekilde ve sitemize üye olmadan notlarınızı tutabilirsiniz. <br>
+        Gün içerisinde ya da gelecek günler için yapacağınız işleri kaydedip tutabilirsiniz.
+    </p>
+    
+    <div class="container">
+        <div class="row">
+            <div class="not w-1">
+                <div class="not-header">
+                    <h5 class="not-title">Not Tutma Sayfası</h5>
+                </div>
+                <div class="not-body">
+                    <form id="notAddForm" class="mt-2">
+                        <input type="text" class="form-control mt-2" id="notName" placeholder="Notunuzu buraya yazın">
+                        <button id="notAddButton" type="submit" class="submitclass">
+                            Not Ekleyin
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="not-body2">
+        <h5 class="not-title">Not Listesi</h5>
+        <form id="notListForm">
+            <input id="notoSearch" type="text" class="form-control mt-3" placeholder="Notlarda arayın">
+            <button id="clearNotesButton" type="submit" class="submitclass">
+                Tüm Notları Temizle
+            </button>
+        </form>
+    </div>
+</body>
+</html>
